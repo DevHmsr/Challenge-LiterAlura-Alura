@@ -23,10 +23,16 @@ public class Autor {
     private List<Livro> livros = new ArrayList<>();
 
     public Autor(DadosAutor dadosAutor) {
-        this.nome = String.valueOf(dadosAutor.nome());
-        this.anoDeNascimento = Integer.valueOf(dadosAutor.anoDeNascimento());
-        this.anoDeFalecimento = Integer.valueOf(dadosAutor.anoDeFalecimento());
+        this.nome = dadosAutor.nome();
+        this.anoDeNascimento = parseAno(dadosAutor.anoDeNascimento());
+        this.anoDeFalecimento = parseAno(dadosAutor.anoDeFalecimento());
     }
+
+    private Integer parseAno(String ano) {
+        return (ano != null && !ano.isBlank()) ? Integer.valueOf(ano) : null;
+    }
+
+
 
     public Autor() {
     }

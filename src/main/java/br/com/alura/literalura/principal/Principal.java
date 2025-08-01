@@ -60,7 +60,7 @@ public class Principal {
                 case 1 -> buscarLivroPorTitulo();
                 case 2 -> listarLivrosRegistrados();
                 case 3 -> listarAutoresRegistrados();
-                case 4 -> listarAutoresVivos();
+                case 4 -> listarAutoresVivosEmDeterminadoAno();
                 case 5 -> listarLivrosPorIdioma();
                 case 0 -> {
                     System.out.println("Até logo! Saindo...");
@@ -127,7 +127,7 @@ public class Principal {
         }
     }
 
-    private void listarAutoresVivos() {
+    private void listarAutoresVivosEmDeterminadoAno() {
         System.out.println("Digite o ano para verificar autores vivos:");
         String anoStr = teclado.nextLine();
 
@@ -165,6 +165,7 @@ public class Principal {
         } else {
             System.out.println("Livros encontrados para o idioma " + idioma + ":");
             livros.forEach(System.out::println);
+            System.out.println("Total de livros encontrados: " + livros.size());
         }
     }
 
