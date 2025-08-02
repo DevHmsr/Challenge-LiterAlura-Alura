@@ -69,7 +69,7 @@ Classe de conversão que usa a biblioteca Gson para transformar JSON em objetos 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/DevHmsr/Challenge-LiterAlura-Alura.git
-- Configure o banco de dados no application.properties:
+2. Configure o banco de dados no application.properties:
 ```bash
 spring.application.name=literalura
 
@@ -83,9 +83,9 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
 - Lembre-se de sempre utilizar variáveis de ambiente caso vá subir esse projeto para algum repositório remoto!
 
-- Rode o projeto em sua IDE ou via terminal
+3. Rode o projeto em sua IDE ou via terminal
 
-- Interaja com o menu no terminal!
+4. Interaja com o menu no terminal!
 
 📄 Exemplo de Uso
 ```
