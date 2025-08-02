@@ -1,6 +1,6 @@
 # 📚 LiterAlura
 
-[![Java](https://img.shields.io/badge/Java-17-blue.svg)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-brightgreen)](https://spring.io/projects/spring-boot)
 [![Build](https://img.shields.io/badge/build-passing-success)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
@@ -19,7 +19,7 @@
 
 ## 💻 Tecnologias Utilizadas
 
-- Java 17
+- Java 21
 - Spring Boot 3.5.4
 - Spring Data JPA
 - Hibernate
