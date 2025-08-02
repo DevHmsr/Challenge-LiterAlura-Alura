@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-brightgreen)](https://spring.io/projects/spring-boot)
 [![Build](https://img.shields.io/badge/build-passing-success)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/DevHmsr/Challenge-LiterAlura-Alura/blob/main/LICENSE)
 [![API Gutendex](https://img.shields.io/badge/API-Gutendex-orange)](https://gutendex.com/)
 
 **LiterAlura** é uma aplicação Java com Spring Boot que consome dados da [API Gutendex](https://gutendex.com/), permitindo buscar e registrar livros e autores em um banco de dados. O projeto oferece funcionalidades como listagem de livros, autores registrados, filtragem por idioma e verificação de autores vivos em um ano específico.
